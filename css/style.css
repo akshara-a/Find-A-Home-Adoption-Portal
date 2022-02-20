@@ -1,0 +1,100 @@
+.filter-grid, .filter-image {
+    position: relative;
+}
+.filter-grid {
+    font-family: Poppins, sans-serif;
+    text-align: center;
+    border-radius: 3px;
+    overflow: hidden;
+    z-index: 1;
+    transition: all .3s ease 0s;
+    margin-bottom: 20px;
+}
+.filter-grid .filter-image a {
+    display: block; 
+}
+.filter-grid .filter-image img {
+    width: 160px;
+    height: 150px;
+    border-radius: 20px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+.filter-grid .pic {
+    opacity: 1;
+    transition: all .5s ease-out 0s;
+}
+.filter-grid:hover .pic {
+    opacity: 0.2;
+}
+
+.filter-grid  {
+    padding: 25px;
+}
+.filter-grid .title {
+    font-size: 20px;
+    background-color: #000;
+    font-weight: 400;
+    color: #fff;
+    padding: 5px 10px;
+    border-radius: 5px;
+    text-transform: capitalize;
+    margin: 0 0 7px;
+    transition: all .3s ease 0s;
+}
+.filter-grid .title a {
+    color: white;
+}
+.filter-grid .title a:hover {
+    color: #0b0d1e;
+}
+
+@media only screen and (max-width: 990px) {
+    .filter-grid {
+        margin-bottom: 30px; 
+   }
+}
+p {
+    margin: 0 0 20px 0;
+    text-align: left;
+}
+
+.borderoverall{
+    border-radius: 10px;
+    box-shadow: rgb(204 204 204) 0px 0px 8px;
+}
+
+.list-group {
+    border: 1px solid #f3f3f3;
+    padding: 10px;
+    margin-bottom: 10px;
+    border-radius: 3px;
+}
+.list-group h4 {
+    font-size: 22px;
+}
+.list-group-item {
+    border: none;
+    margin-left: -10px;
+    margin-bottom: -20px;
+    font-size: 14px;
+    padding: 18px;
+}
+.list-group-item:focus, .list-group-item:hover {
+    z-index: 0;
+}
+@media (min-width: 768px){
+.col-md-3 {
+    flex: 0 0 auto;
+    width: 15%;
+}
+}
+body{
+    margin-top: 50px;
+}
+@media (min-width: 768px){
+.col-md-9 {
+    flex: 0 0 auto;
+    width: 85%;
+}
+}
